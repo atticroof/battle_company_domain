@@ -1,7 +1,7 @@
 name: battle_company_domain
 description: Battle Company for Battletech.
 version: 0.0.1
-homepage:
+publish_to: 'none'
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
@@ -10,11 +10,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  freezed_annotation: ^1.1.0
+  fast_immutable_collections: ^7.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  freezed: ^1.1.1
+  flutter_lints: ^1.0.4
+  build_runner: ^2.1.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
